@@ -12,7 +12,7 @@ def welcome():
 @app.route('/success/<int:score>')
 def success(score):
     return 'the student is passed and the marks is'+ str(score)
-
+    
 @app.route('/fail/<int:score>')
 def fail(score):
     return 'the student is failed and the marks is'+ str(score)
